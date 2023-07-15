@@ -32,15 +32,15 @@ python --version
 
 The following modules are required for the installation of this project:
 <br>
-| Module | Version |
-|---|---|
-json |      2.0.9  |
-spacy|      3.6.0  |
-requests|   2.28.1 |  
-lyricsgenius|3.0.1 |  
-configparser|5.3.0 |
-re|          2.2.1 |
-
+```import requests,pickle,io,re,spacy
+from bs4 import BeautifulSoup
+from contextlib import redirect_stdout
+from spacytextblob.spacytextblob import SpacyTextBlob
+from spacy.lang.en.stop_words import STOP_WORDS
+from collections import Counter
+import matplotlib.pyplot as plt
+import numpy as np
+```
 ## Acknowledgments
 
 I would like to acknowledge the following resources that were instrumental in the development of this project:
